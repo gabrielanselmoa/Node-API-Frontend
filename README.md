@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,23 +12,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project Description
+ - Technical Test for Full Stack Developer Intern by Sigma Software;
+ - Back-End API + Front-End API Consuming;
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technologies Used
+ - React.js (Next.js), Typescript, React Hook Forms, ShadcnUI, Tailwind;
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Routes
+ - ![Root Route - /src](image-1.png)
+ - Root > A Server Side Component that returns a User List (All);
 
-## Learn More
+ - ![User Route](image.png)
+ - User/new > A Client Side Component that allows we to CREATE a new User - name and email fields -.
+ - User/id/name > A Client Side Component that contains the PUT - Updating the name and email field - and DELETE operations;
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Repository Clone: `git clone https://github.com/seu-usuario/node-api-frontend.git`
+2. Navigate to your project directory: `cd node-api-frontend`
+3. Install all dependencies: `npm install` ou `yarn install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - Gabriel Anselmo - Web Developer - 2024
